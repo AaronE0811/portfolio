@@ -5,6 +5,7 @@ interface LangProps {
   changeLang: () => void;
 }
 function Project({ Lang }: { Lang: LangProps }) {
+  "";
   const { lang, changeLang } = Lang;
   const t = Traslate[lang];
   const projects = [

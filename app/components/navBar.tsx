@@ -10,7 +10,7 @@ function NavBar({ Lang }: { Lang: LangProps }) {
 
   const t = Traslate[lang];
   return (
-    <div className="w-full mt-10 border border-[#3B82F6] rounded p-2 flex flex-col lg:flex-row items-center justify-between">
+    <div className="w-full mt-10 border border-[#3B82F6] rounded p-2 flex  items-center justify-between">
       <div>
         <h1 className="font-bold text-[28px]">{t.titleNavBar}</h1>
       </div>
