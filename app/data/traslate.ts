@@ -31,6 +31,10 @@ export const Traslate = {
     countriesName: "API de Países REST",
     countriesDesc:
       "Aplicación interactiva que visualiza datos detallados de países de todo el mundo consumiendo la REST Countries API.",
+
+    predictName: "Prediccion de diabetes",
+    predictDesc:
+      "Desarrollé una arquitectura desacoplada utilizando Next.js para una interfaz de usuario moderna y reactiva, conectada mediante una API REST a un microservicio en Python (Flask). El sistema procesa métricas biométricas en tiempo real, realizando inferencias sobre un modelo predictivo entrenado con el dataset Pima Indians, desplegado de forma independiente para garantizar escalabilidad y eficiencia.",
   },
   en: {
     titleNavBar: "Portfolio",
@@ -62,5 +66,9 @@ export const Traslate = {
     countriesName: "REST Countries API",
     countriesDesc:
       "Interactive application that visualizes detailed data about countries worldwide by consuming the REST Countries API.",
+
+    predictName: "Prediction of diabetes",
+    predictDesc:
+      "I developed a decoupled architecture featuring a modern, reactive UI built with Next.js, seamlessly integrated via a REST API with a Python (Flask) microservice. The system processes biometric metrics in real-time, performing inferences using a predictive model trained on the Pima Indians dataset. The backend is independently deployed to ensure high scalability and computational efficiency",
   },
 };

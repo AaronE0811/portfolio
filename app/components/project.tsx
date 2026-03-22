@@ -35,6 +35,25 @@ function Project({ Lang }: { Lang: LangProps }) {
       URLLive: "https://apicountryrest.netlify.app/",
       Tools: ["React", "Tailwind", "Next.js"],
     },
+    {
+      id: 3,
+      name: t.predictName,
+      description: t.predictDesc,
+      image: "/capturas/predict-diabetes-delta.vercel.app_ (2).jpg",
+      URLGitHub: "https://github.com/AaronE0811/PredictDiabetes",
+      URLLive: "https://predict-diabetes-delta.vercel.app/",
+      Tools: [
+        "React",
+        "Tailwind",
+        "Next.js",
+        "Python",
+        "Flask",
+        "Pandas",
+        "Numpy",
+        "Scikit-learn",
+        "Joblib",
+      ],
+    },
   ];
   return (
     <div className="w-full mt-4">
